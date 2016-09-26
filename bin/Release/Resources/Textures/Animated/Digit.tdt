@@ -1,0 +1,203 @@
+name Digit
+
+// All digits
+texture "Resources\Textures\Animated\Digit\Digits.png" {
+	subframe 0/0/1/1
+	subframe 0/0/52/70
+	subframe 52/0/52/70
+	subframe 104/0/52/70
+	subframe 156/0/52/70
+	subframe 208/0/52/70
+	subframe 260/0/52/70
+	subframe 312/0/52/70
+	subframe 364/0/52/70
+	subframe 416/0/52/70
+	subframe 468/0/52/70
+}
+// Zero pulse
+texture "Resources\Textures\Animated\Digit\ZeroDigit.png" {
+	subframe 0/0/52/70
+	subframe 52/0/52/70
+	subframe 104/0/52/70
+	subframe 156/0/52/70
+	subframe 208/0/52/70
+	subframe 260/0/52/70
+}
+// One pulse
+texture "Resources\Textures\Animated\Digit\OneDigit.png" {
+	subframe 0/0/52/70
+	subframe 52/0/52/70
+	subframe 104/0/52/70
+	subframe 156/0/52/70
+	subframe 208/0/52/70
+	subframe 260/0/52/70
+}
+// Percent pulse
+texture "Resources\Textures\Animated\Digit\PercentDigit.png" {
+	subframe 0/0/52/70
+	subframe 52/0/52/70
+	subframe 104/0/52/70
+	subframe 156/0/52/70
+	subframe 208/0/52/70
+	subframe 260/0/52/70
+}
+
+// Blank
+animation {
+	frame 0/0/166.66
+	frame 0/0/166.66
+	frame 0/0/166.66
+	frame 0/0/166.66
+	frame 0/0/166.66
+	frame 0/0/166.66
+	frame 0/0/166.66
+	frame 0/0/166.66
+	frame 0/0/166.66
+	frame 0/0/166.66
+}
+// Zero
+animation {
+	loop
+	frame 1/0/166.66
+	frame 1/1/166.66
+	frame 1/2/166.66
+	frame 1/3/166.66
+	frame 1/4/166.66
+	frame 1/5/166.66
+	frame 1/4/166.66
+	frame 1/3/166.66
+	frame 1/2/166.66
+	frame 1/1/166.66
+}
+// One
+animation {
+	loop
+	frame 2/0/166.66
+	frame 2/1/166.66
+	frame 2/2/166.66
+	frame 2/3/166.66
+	frame 2/4/166.66
+	frame 2/5/166.66
+	frame 2/4/166.66
+	frame 2/3/166.66
+	frame 2/2/166.66
+	frame 2/1/166.66
+}
+// Two
+animation {
+	frame 0/3/166.66
+	frame 0/3/166.66
+	frame 0/3/166.66
+	frame 0/3/166.66
+	frame 0/3/166.66
+	frame 0/3/166.66
+	frame 0/3/166.66
+	frame 0/3/166.66
+	frame 0/3/166.66
+	frame 0/3/166.66
+}
+// Three
+animation {
+	frame 0/4/166.66
+	frame 0/4/166.66
+	frame 0/4/166.66
+	frame 0/4/166.66
+	frame 0/4/166.66
+	frame 0/4/166.66
+	frame 0/4/166.66
+	frame 0/4/166.66
+	frame 0/4/166.66
+	frame 0/4/166.66
+}
+// Four
+animation {
+	frame 0/5/166.66
+	frame 0/5/166.66
+	frame 0/5/166.66
+	frame 0/5/166.66
+	frame 0/5/166.66
+	frame 0/5/166.66
+	frame 0/5/166.66
+	frame 0/5/166.66
+	frame 0/5/166.66
+	frame 0/5/166.66
+}
+// Five
+animation {
+	frame 0/6/166.66
+	frame 0/6/166.66
+	frame 0/6/166.66
+	frame 0/6/166.66
+	frame 0/6/166.66
+	frame 0/6/166.66
+	frame 0/6/166.66
+	frame 0/6/166.66
+	frame 0/6/166.66
+	frame 0/6/166.66
+}
+// Six
+animation {
+	frame 0/7/166.66
+	frame 0/7/166.66
+	frame 0/7/166.66
+	frame 0/7/166.66
+	frame 0/7/166.66
+	frame 0/7/166.66
+	frame 0/7/166.66
+	frame 0/7/166.66
+	frame 0/7/166.66
+	frame 0/7/166.66
+}
+// Seven
+animation {
+	frame 0/8/166.66
+	frame 0/8/166.66
+	frame 0/8/166.66
+	frame 0/8/166.66
+	frame 0/8/166.66
+	frame 0/8/166.66
+	frame 0/8/166.66
+	frame 0/8/166.66
+	frame 0/8/166.66
+	frame 0/8/166.66
+}
+// Eight
+animation {
+	frame 0/9/166.66
+	frame 0/9/166.66
+	frame 0/9/166.66
+	frame 0/9/166.66
+	frame 0/9/166.66
+	frame 0/9/166.66
+	frame 0/9/166.66
+	frame 0/9/166.66
+	frame 0/9/166.66
+	frame 0/9/166.66
+}
+// Nine
+animation {
+	frame 0/10/166.66
+	frame 0/10/166.66
+	frame 0/10/166.66
+	frame 0/10/166.66
+	frame 0/10/166.66
+	frame 0/10/166.66
+	frame 0/10/166.66
+	frame 0/10/166.66
+	frame 0/10/166.66
+	frame 0/10/166.66
+}
+// Percent
+animation {
+	loop
+	frame 3/0/166.66
+	frame 3/1/166.66
+	frame 3/2/166.66
+	frame 3/3/166.66
+	frame 3/4/166.66
+	frame 3/5/166.66
+	frame 3/4/166.66
+	frame 3/3/166.66
+	frame 3/2/166.66
+	frame 3/1/166.66
+}

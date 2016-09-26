@@ -1,0 +1,1 @@
+g++ fps.cpp gfxProgram.cpp keyboardHook.cpp loadConfig.cpp main.cpp renderScene.cpp sprite.cpp texture.cpp textureWrapper.cpp -o UberTimer.exe -lmingw32 -lglew32s -lopengl32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer

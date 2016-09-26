@@ -1,0 +1,11 @@
+// Window position and size (default = [0, 0, 104, 70])
+windowX = 892
+windowY = 824
+windowW = 62
+windowH = 42
+
+// Key scan codes for the low-level keyboard hook (default = B, B, DEL)
+// https://msdn.microsoft.com/en-us/library/aa299374(v=vs.60).aspx
+resetKey = 48
+pauseKey = 48
+abortKey = 83
